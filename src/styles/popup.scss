@@ -1,0 +1,42 @@
+.popup-content {
+    background-color: #fff;
+    border-radius: 15px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 30%;
+
+    .top-section {
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+
+    .form-wrapper {
+        margin-top: 20px;
+
+        .field-wrapper {
+            margin-bottom: 30px;
+            width: 100%;
+
+            input {
+                margin-top: 5px;
+                height: 40px;
+                width: 100%;
+            }
+        }
+
+        .buttons {
+            button {
+                background-color: #0044c1;
+                border-radius: 5px;
+                color: #fff;
+                cursor: pointer;
+                height: 40px;
+                width: 140px;
+            }
+        }
+    }
+}

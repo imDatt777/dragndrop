@@ -1,0 +1,13 @@
+.canvas {
+    height: 100%;
+    width: 75%;
+
+    .element {
+        cursor: pointer;
+    }
+
+    .highlight {
+        border: 2px solid red;
+        border-radius: 5px;
+    }
+}

@@ -1,0 +1,59 @@
+.sidebar {
+    width: 25%;
+    background-color: #2d2d2d;
+    padding: 20px 25px 0;
+    position: relative;
+
+    h3 {
+        color: #fff;
+        font-family: Open Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .items {
+        margin-top: 15px;
+
+        .item {
+            background-color: #fff;
+            border-radius: 5px;
+            cursor: grab;
+            display: flex;
+            padding: 15px 10px;
+            margin-bottom: 10px;
+
+            .icon {
+                width: 11px;
+            }
+
+            p {
+                color: #000;
+                font-family: Open Sans;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: normal;
+                margin-left: 10px;
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .export-btn {
+        background-color: cadetblue;
+        border-radius: 10px;
+        bottom: 20px;
+        cursor: pointer;
+        font-weight: 600;
+        height: 35px;
+        left: 20px;
+        position: absolute;
+        right: 20px;
+    }
+}
